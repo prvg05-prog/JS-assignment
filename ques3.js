@@ -23,8 +23,8 @@ function divbyk(x,k){
     }
 }
 
-let N=prompt("enter N");
-let K=prompt("enter K");
+let N=parseInt(prompt("enter N"));
+let K=parseInt(prompt("enter K"));
 var x=1
 while(x!=100000){
     var x1=palin(N+x);
