@@ -17,8 +17,8 @@ function checkmid(x,seed){
 }
 
 
-let num= prompt("enter number");
-let seed= prompt("enter seed");
+let num= parseInt(prompt("enter number"));
+let seed= parseInt(prompt("enter seed"));
 for(var i=0;i<3;i++){
     if(num % 2==0){
         num= num/2 +seed;
